@@ -1,0 +1,113 @@
+body {
+    background-color: #C36868;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: black;
+}
+
+#pomodoro-container {
+    max-width: 350px;
+    width: 90%;
+    padding: 20px;
+    background-color: #B3BCBB;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.timer-box {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#timer-label {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#time-left {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.timer-controls button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.2s;
+}
+
+.timer-controls button:hover {
+    background-color: #e0e0e0;
+}
+
+.length-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-box {
+    background-color: #4d4d4d;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 12px;
+}
+
+.control-box div:first-child {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.adjust-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99BCC0;
+}
+
+.adjust-controls button {
+    color: #4d4d4d;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 10px;
+    transition: background-color 0.2s;
+}
+
+#break-label, #session-label{
+    font-size: 12px;
+}
+
+.adjust-controls button:hover {
+    background-color: #777;
+    color: white;
+}
+
+.adjust-controls span {
+    font-size: 1.5em;
+    font-weight: bold;
+    min-width: 30px;
+    display: inline-block;
+}
